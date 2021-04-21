@@ -1,0 +1,118 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before, *::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-image: url("image/wall.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  color: #138dbd;
+}
+
+.info-container {
+  border-radius: 10px;
+  margin: 2pc 7pc 0 7pc;
+  background: linear-gradient(70deg, whitesmoke, rgba(0, 0, 0, 0.801));
+}
+
+.info-container label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 20px 0 20px;
+}
+
+.info-container input {
+  border: none;
+  outline: none;
+  border: 2px solid #fdfdfd;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 0 0 0;
+  border-radius: 4px;
+}
+
+.info-container #Lastname {
+  margin-left: 2px;
+}
+
+.selector {
+  margin: 50px 0 30px 9pc;
+}
+
+.selector label {
+  position: relative;
+  right: 9pc;
+  top: 1.7pc;
+}
+
+.selector select {
+  outline: none;
+  padding: 5px 4pc 5px 4pc;
+}
+
+#pay-methode {
+  margin: 0 0 0 9pc;
+  padding: 10px 0 10px 40px;
+  background-image: url("image/visaCard.png"), url("image/visa.png");
+  background-repeat: no-repeat;
+  background-position: 3px 1px;
+}
+
+button {
+  margin: 30px 0 20px 10pc;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px 36px 8px 36px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+#Alert {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  margin-top: 6pc;
+}
+
+#text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #0eca0e;
+  font-size: 20px;
+}
+
+#pay {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: red;
+}
+/*# sourceMappingURL=pay.css.map */

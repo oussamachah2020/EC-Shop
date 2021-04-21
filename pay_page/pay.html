@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css">
+    <title>Pay</title>
+</head>
+<body>
+    <h1 class="title">PAY PAGE</h1>
+    <div class="info-container">
+        <form class="user-info">
+            <label for="fisrt-name">First-Name: </label>
+            <input type="text" name="first-name" class="input"><br>
+            <label for="last-name">Last-Name: </label>
+            <input type="text" name="last-name" class="input">
+        </form>
+        <form class="selector">
+            <label for="YourCountry">Your Country: </label>
+            <select name="YourCountry" id="country">
+                <option>-- Country --</option>
+                <option>Canada</option>
+                <option>Morocco</option>
+                <option>Italie</option>
+                <option>USA</option>
+                <option>Japan</option>
+                <option>China</option>
+            </select>
+        </form>
+        <div class="pay-info">
+            <input type="text" id="pay-methode" placeholder="1234-5678-9123">
+            <p id="pay"></p>
+        </div>
+        <button type="submit" id="btn">SUBMIT</button>
+    </div>
+    <p id="Alert"></p>
+    <p id="text"></p>
+    <!--JavaScript-->
+    <script src="pay.js"></script>
+</body>
+</html>

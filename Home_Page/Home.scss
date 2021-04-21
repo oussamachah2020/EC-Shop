@@ -1,0 +1,284 @@
+$Font:Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::after,*::before {
+    box-sizing: inherit;
+}
+
+nav {
+    float: right;
+    position: relative;
+    right: 4pc;
+}
+
+.list {
+    display: inline-flex;
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 30px 30px 10px 10px;
+    transform: translate(4pc,-3.6pc);
+    box-shadow: 0 0 15px -2px black;
+    
+    li {
+        margin: 17px 20px 0 2pc;
+        transform: translateX(-8pc);
+
+        a {
+            color: black;
+            font-size: 16.5px;
+            cursor: pointer;
+            transition: .5s;
+        }
+        a:hover {
+            opacity: .5;
+        }
+    }
+
+    img#shop {
+        transform: translate(1px,15px);
+    }
+}
+
+a {
+    text-decoration: none;
+    font-family: $Font;    
+}
+
+span.title {
+    margin-right: 30pc;
+    font-weight: bold;
+    font-size: 2pc;
+    position: relative;
+    bottom: 38px;
+    left: 10pc;
+}
+
+.container {
+    h1 {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 4pc;
+    }
+}
+
+.para {
+    font-family: $Font;
+    margin: 10pc 0 0 5pc;
+}
+
+.registration {
+    margin: 30px 0 0 5pc;
+
+    input {
+        border: none;
+        outline: none;
+        border: 2px solid black;
+        background-color: rgba(211, 211, 211, 0.541);
+        padding: 20px 15pc 20px 10px;
+    }
+
+    ::placeholder {
+        color: black;
+        font-family: $Font;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        padding: 19px 5pc 19px 5pc;
+        border: 2px solid rgba(0, 0, 0, 0.541);
+        position: relative;
+        background-color: white;
+        font-family: $Font;
+        right: 8px;
+        cursor: pointer;
+        transition: .5s;
+        color: black;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+img#sho {
+    position: relative;
+    left: 60%;
+    bottom: 17pc;
+}
+
+.stores {
+    transform: translatey(-13pc);
+    margin-left: 10%;
+}
+
+.Womens-Store {
+    width: 50%;
+    font-family: $Font;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+
+    h2 {
+        text-align: center;
+        font-family: $Font;
+        text-decoration: underline gray;
+
+        span {
+            opacity: .5;
+            margin-left: 10px;
+        }
+    }
+
+    a {
+        font-size: 18px;
+
+
+    button {
+        transform: translate(50pc,-5pc);
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border: 2px solid rgba(0, 0, 0, 0.65);
+        transition: .5s;
+        cursor: pointer;
+    }
+    }
+
+    button:hover {
+        opacity: .5;
+    }
+}
+
+.Mens-Store {
+    width: 50%;
+    font-family: $Font;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+    float: right;
+    margin: 10pc 50px 0 0;
+    line-height: 1.3em;
+
+    h2 {
+        text-align: center;
+        font-family: $Font;
+        text-decoration: underline gray;
+
+        span {
+            opacity: .5;
+            margin-left: 10px;
+        }
+    }
+
+    a {
+        font-size: 18px;
+
+        button {
+            transform: translate(-28pc,-5pc);
+            border: none;
+            outline: none;
+            color: white;
+            background-color: black;
+            padding: 10px 20px 10px 20px;
+            border: 2px solid rgba(0, 0, 0, 0.65);
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+
+    button:hover {
+        opacity: .5;
+    }
+}
+
+.kids-Store {
+    width: 50%;
+    font-family: $Font;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.699);
+    margin: 38pc 50px 0 0;
+    line-height: 1.3em;
+
+    h2 {
+        text-align: center;
+        font-family: $Font;
+        text-decoration: underline gray;
+
+        span {
+            opacity: .5;
+            margin-left: 10px;
+        }
+    }
+
+    a {
+        font-size: 18px;
+
+        button {
+            transform: translate(50pc,-5pc);
+            border: none;
+            outline: none;
+            background-color: black;
+            color: white;
+            padding: 10px 20px 10px 20px;
+            border: 2px solid rgba(0, 0, 0, 0.65);
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+
+    button:hover {
+        opacity: .5;
+    }
+}
+
+footer {
+    background-color: rgba(11, 32, 100, 0.863);
+    transform: translateY(5pc);
+}
+
+.copyright {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5pc 0 5pc 0;
+}
+
+button.top {
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    position: relative;
+    bottom: 8.5pc;
+    right: 30px;
+    cursor: pointer;
+    transition: .5s;
+    animation: 1s infinite ease top_scroll;
+}
+
+@keyframes top_scroll {
+    from {transform: translateY(-10px);}
+    to {transform: translateY(5px);}
+}
+
+#alert {
+    font-family: $Font;
+    color: black;
+    margin-left: 5pc;
+    color: red;
+}
+
+#thanks {
+    color: black;
+    font-family: $Font;
+    margin-left: 5pc;
+}

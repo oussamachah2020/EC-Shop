@@ -1,0 +1,146 @@
+*::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li.title {
+  margin: 17px 20px 0 2pc;
+  list-style: none;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+li.title a {
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li.title a:hover {
+  opacity: .5;
+}
+
+img#shop {
+  -webkit-transform: translate(1px, 15px);
+          transform: translate(1px, 15px);
+}
+
+.sideBar {
+  border: none;
+  outline: none;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 26px;
+  cursor: pointer;
+}
+
+.show-SideBar {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+ul {
+  background-color: rgba(211, 211, 211, 0.363);
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+ul li {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  padding: 10px 0 10px 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+ul li a:hover {
+  opacity: .6;
+}
+
+.Products-container {
+  margin: 20px 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.Products-container div {
+  border: 1px solid black;
+  width: 95%;
+}
+
+.Products-container form {
+  margin: 15px 0 0 30px;
+}
+
+.Products-container form label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Products-container input {
+  width: 30%;
+}
+
+.Products-container button.shop-btn {
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 36px 8px 36px;
+  margin: 30px 0 10px 40px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("image/buy.png");
+  background-repeat: no-repeat;
+  background-position: 5.5px 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.Products-container button.shop-btn:hover {
+  background-color: black;
+  color: white;
+  background-image: url("image/buy2.png");
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+
+span#price {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  margin-left: 5.7pc;
+}
+
+#price, #Dollar {
+  position: relative;
+  top: .7pc;
+}
+/*# sourceMappingURL=Kids.css.map */
